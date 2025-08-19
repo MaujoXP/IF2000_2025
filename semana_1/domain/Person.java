@@ -19,7 +19,7 @@ public class Person {
     return name;
   }
 
-  public String getLastNameString() {
+  public String getLastName() {
     return lastName;
   }
 
@@ -57,10 +57,10 @@ public class Person {
 
   public String toString() {
     return "Person" +
-            "\nname = " + name +
-            "\nlastName = " + lastName +
-            "\nid = " + id +
-            "\nphone = " + phone + 
-            "\nage = " + age;
+            "\nname = " + this.getName() +
+            "\nlastName = " + this.getLastName() +
+            "\nid = " + this.getId() +
+            "\nphone = " + this.getPhone() + 
+            "\nage = " + this.getAge();
   }
 }
