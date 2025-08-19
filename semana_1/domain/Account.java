@@ -1,6 +1,6 @@
 package IF2000_2025.semana_1.domain;
 
-public class Account {
+public abstract class Account {
   private String accountNumber;
   private double balance;
   private Person client;
@@ -47,8 +47,8 @@ public class Account {
 
   public String toString() {
     return "Bank account information\n" +
-            "\naccountNumber = " + accountNumber +
-            "\nbalance = " + balance +
-            "\nclient = " + client;
+            "\nAccount number = " + this.getAccountNumber() +
+            "\nBalance = " + this.getBalance() +
+            "\nClient info = " + this.getClient().toString();
   }
 }
