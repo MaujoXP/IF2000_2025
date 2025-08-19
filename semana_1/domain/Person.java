@@ -63,4 +63,6 @@ public class Person {
             "\nphone = " + this.getPhone() + 
             "\nage = " + this.getAge();
   }
+
+  System.out.println("Person class initialized);
 }
