@@ -1,4 +1,4 @@
-package IF2000_2025.semana_1.domain;
+package IF2000_2025.IntroduccionProgra.domain;
 
 public class Person {
   private String name;
@@ -64,5 +64,5 @@ public class Person {
             "\nage = " + this.getAge();
   }
 
-  System.out.println("Person class initialized);
+  //Hola
 }

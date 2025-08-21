@@ -1,4 +1,4 @@
-package IF2000_2025.semana_1.domain;
+package IF2000_2025.IntroduccionProgra.domain;
 
 public abstract class Account {
   private String accountNumber;
