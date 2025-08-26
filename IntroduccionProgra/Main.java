@@ -5,7 +5,7 @@ import IF2000_2025.IntroduccionProgra.logic.Quiz3;
 
 public class Main {
   public static void main(String[] args) {
-    Ejercicios_Semana2_PracticaEnClase pruebaEjercicio = new Ejercicios_Semana2_PracticaEnClase();
+    //Ejercicios_Semana2_PracticaEnClase pruebaEjercicio = new Ejercicios_Semana2_PracticaEnClase();
     Quiz3 pruebaQuiz3 = new Quiz3();
     /* pruebaEjercicio.ejercicioA();
     pruebaEjercicio.ejercicioB();
