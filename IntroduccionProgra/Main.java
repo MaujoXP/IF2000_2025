@@ -10,6 +10,7 @@ public class Main {
     pruebaEjercicio.ejercicioC();
     pruebaEjercicio.ejercicioD(new int[] {5, 3, 8, 6, 2});
     pruebaEjercicio.ejercicioE();
+    pruebaEjercicio.ejercicioF();
     /* Person p = new Person("John", "Doe", "123456789", "555-1234", 30);
     p.toString();
     System.out.println(p);

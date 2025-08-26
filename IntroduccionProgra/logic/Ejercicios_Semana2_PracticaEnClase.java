@@ -108,4 +108,52 @@ public class Ejercicios_Semana2_PracticaEnClase {
     }
     System.out.println("");
   }
+
+  public void ejercicioF() {
+    // Creamos una matriz 8x8 para el tablero
+    char[][] tablero = new char[8][8];
+
+    // Inicializamos todas las casillas con espacio vacío
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            tablero[i][j] = ' ';
+        }
+    }
+
+    // Colocar fichas Negras (N) en las primeras 3 filas en casillas alternas
+    for (int fila = 0; fila < 3; fila++) {
+        for (int col = 0; col < 8; col++) {
+            if ((fila + col) % 2 == 0) {
+                tablero[fila][col] = 'N';
+            }
+        }
+    }
+
+    // Colocar fichas Rojas (R) en las últimas 3 filas en casillas alternas
+    for (int fila = 5; fila < 8; fila++) {
+        for (int col = 0; col < 8; col++) {
+            if ((fila + col) % 2 == 0) {
+                tablero[fila][col] = 'R';
+            }
+        }
+    }
+
+    // Encabezado de columnas (números)
+    System.out.print("   ");
+    for (int col = 1; col <= 8; col++) {
+        System.out.print(col + "   ");
+    }
+    System.out.println();
+
+    // Letras de filas (A-H)
+    char letraFila = 'A';
+    for (int i = 0; i < 8; i++) {
+        System.out.print(letraFila + "  ");
+        for (int j = 0; j < 8; j++) {
+            System.out.print(tablero[i][j] + "   ");
+        }
+        System.out.println();
+        letraFila++;
+    }
+  }
 }
