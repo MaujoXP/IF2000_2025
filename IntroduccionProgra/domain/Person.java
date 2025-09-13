@@ -1,68 +1,67 @@
 package IF2000_2025.IntroduccionProgra.domain;
 
 public class Person {
-  private String name;
-  private String lastName;
-  private String id;
-  private String phone;
-  private int age;
+    private String name;
+    private String lastName;
+    private String id;
+    private String phone;
+    private int age;
 
   public Person(String name, String lastName, String id, String phone, int age) {
-    this.name = name;
-    this.lastName = lastName;
-    this.id = id;
-    this.phone = phone;
-    this.age = age;
+      this.name = name;
+      this.lastName = lastName;
+      this.id = id;
+      this.phone = phone;
+      this.age = age;
   }
 
   public String getName() {
-    return name;
+      return name;
   }
 
   public String getLastName() {
-    return lastName;
+      return lastName;
   }
 
   public String getId() {
-    return id;
+      return id;
   }
 
   public String getPhone() {
-    return phone;
+      return phone;
   }
 
   public int getAge() {
-    return age;
+      return age;
   }
 
   public void setName(String name) {
-    this.name = name;
+      this.name = name;
   }
 
   public void setLastName(String lastName) {
-    this.lastName = lastName;
+      this.lastName = lastName;
   }
 
   public void setId(String id) {
-    this.id = id;
+      this.id = id;
   }
 
   public void setPhone(String phone) {
-    this.phone = phone;
+      this.phone = phone;
   }
 
   public void setAge(int age) {
-    this.age = age;
+      this.age = age;
   }
 
+  @Override
   public String toString() {
-    return "Person" +
-            "\nname = " + this.getName() +
-            "\nlastName = " + this.getLastName() +
-            "\nid = " + this.getId() +
-            "\nphone = " + this.getPhone() + 
-            "\nage = " + this.getAge();
+      return "Person" +
+          "\nname = " + this.getName() +
+          "\nlastName = " + this.getLastName() +
+          "\nid = " + this.getId() +
+          "\nphone = " + this.getPhone() +
+          "\nage = " + this.getAge();
   }
-
-  //Hola
 }
