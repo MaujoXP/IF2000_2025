@@ -7,17 +7,17 @@ import IF2000_2025.IntroduccionProgra.logic.Quiz3;
 
 public class Main {
   public static void main(String[] args) {
-    //Ejercicios_Semana2_PracticaEnClase pruebaEjercicio = new Ejercicios_Semana2_PracticaEnClase();
+    Ejercicios_Semana2_PracticaEnClase pruebaEjercicio = new Ejercicios_Semana2_PracticaEnClase();
     //Quiz3 pruebaQuiz3 = new Quiz3();
     //Laboratorio_1 pruebaLab1 = new Laboratorio_1();
     Laboratorio_2 pruebaLab2 = new Laboratorio_2();
-
+    pruebaEjercicio.ejercicioF();
     /* pruebaEjercicio.ejercicioA();
     pruebaEjercicio.ejercicioB();
     pruebaEjercicio.ejercicioC();
     pruebaEjercicio.ejercicioD(new int[] {5, 3, 8, 6, 2});
     pruebaEjercicio.ejercicioE();
-    pruebaEjercicio.ejercicioF(); */
+     
     //pruebaQuiz3.ejercicioA();
     //System.out.println(pruebaLab1.ejercicio_1());
     //System.out.println(pruebaLab1.ejercicio_2());
@@ -35,7 +35,7 @@ public class Main {
     //System.out.println(pruebaLab2.ejercicio_22());
     //pruebaLab2.ejercicio_23();  
     //pruebaLab2.ejercicio_25();
-    pruebaLab2.ejercicio_27();
+    //pruebaLab2.ejercicio_27();
     
 
     /* Person p = new Person("John", "Doe", "123456789", "555-1234", 30);
