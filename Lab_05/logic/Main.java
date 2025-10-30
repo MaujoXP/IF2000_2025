@@ -1,8 +1,8 @@
-package IF2000_2025.Lab_05.domain;
+package IF2000_2025.Lab_05.logic;
 
-import IF2000_2025.Lab_05.logic.Tablero;
+import IF2000_2025.Lab_05.domain.Tablero;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hola, bienvenido al laboratorio 5");
 

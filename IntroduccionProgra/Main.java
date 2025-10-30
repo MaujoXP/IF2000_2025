@@ -1,9 +1,7 @@
 package IF2000_2025.IntroduccionProgra;
 //import IF2000_2025.IntroduccionProgra.domain.Person;
 import IF2000_2025.IntroduccionProgra.logic.Ejercicios_Semana2_PracticaEnClase;
-import IF2000_2025.IntroduccionProgra.logic.Laboratorio_1;
 import IF2000_2025.IntroduccionProgra.logic.Laboratorio_2;
-import IF2000_2025.IntroduccionProgra.logic.Quiz3;
 
 public class Main {
   public static void main(String[] args) {
@@ -17,12 +15,12 @@ public class Main {
     pruebaEjercicio.ejercicioC();
     pruebaEjercicio.ejercicioD(new int[] {5, 3, 8, 6, 2});
     pruebaEjercicio.ejercicioE();
-     
+
     //pruebaQuiz3.ejercicioA();
     //System.out.println(pruebaLab1.ejercicio_1());
     //System.out.println(pruebaLab1.ejercicio_2());
     //System.out.println(pruebaLab1.ejercicio_3());
-    //pruebaLab1.ejercicio_4(); 
+    //pruebaLab1.ejercicio_4();
     //pruebaLab1.ejercicio_5();
     //pruebaLab1.ejercicio_6();
     //pruebaLab1.ejercicio_7();
@@ -33,7 +31,7 @@ public class Main {
     //pruebaLab1.ejercicio_12();
     //pruebaLab2.ejercicio_18();
     //System.out.println(pruebaLab2.ejercicio_22());
-    //pruebaLab2.ejercicio_23();  
+    //pruebaLab2.ejercicio_23();
     //pruebaLab2.ejercicio_25();
     //pruebaLab2.ejercicio_27();
     
@@ -67,7 +65,7 @@ public class Main {
 
     Data Structures:
     Arrays or Vectors: int[] x;
-                       int [][] y;
+    int [][] y;
      */
   }
 }

@@ -1,4 +1,4 @@
-package IF2000_2025.Lab_05.logic;
+package IF2000_2025.Lab_05.domain;
 
 import java.util.Scanner;
 
